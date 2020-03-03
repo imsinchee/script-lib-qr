@@ -3,6 +3,7 @@ var talk_title = "Talks";
 var flag = false;
 var first_time = true;
 var audio = new Audio('honk/Honk1.mp3')
+console.log("Ready");
 
 function comfrim(){
   talk_title = document.getElementById("talks").value.toUpperCase();
